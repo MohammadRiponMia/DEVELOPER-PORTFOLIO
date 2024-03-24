@@ -1,6 +1,7 @@
 body{
     font-family:Poppins;font-size: 20px;
-    background-color: rgb(5, 83, 114);
+    background-color: rgb(239, 243, 245);
+    margin: 0px;
 }
 h1{
     font-size: 40px;
@@ -31,4 +32,8 @@ section{
     border-radius: 10px;
     color: chartreuse;
     font-weight: 800;
+}
+.top-bannar{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
 }
