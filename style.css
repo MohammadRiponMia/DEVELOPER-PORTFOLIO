@@ -12,9 +12,9 @@ h2{
 .orange{
     color: orange;
 }
-section{
+.flexiablecontent{
     display: flex;
-    margin-bottom: 100pxpx;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -52,6 +52,37 @@ section{
     padding-right: 10px;
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
-    background-position:right;
+    background-position:right;}
+.sec-0{
+    background-color: white;
+    padding: 10px;
+background-image: url(image/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
 }
+    
+
+.sec-1{
+    display: flex;
+    padding-left: 60px;
+    justify-content: space-around;
+
+
+
+
+    
+}
+.sec-2{
+    border-left: 5px solid rgb(196, 50, 37);
+     margin-left: 5px;
+    margin-right: 5px;
+    width: 45%; 
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.sec-4{
+    color: darkorange;
 }
